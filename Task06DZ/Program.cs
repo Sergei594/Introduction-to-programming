@@ -14,13 +14,15 @@ int Mod(int a)
 {
     return a % 2;
 }
-void PrintMod(int remai)//на основе остатка выводим число кратное или нет
+void PrintMod(int remai)//на основе остатка выводим число четное  или нет
 {
     if (remai == 0)// сравниваем остаток с 0
-        Console.WriteLine("Число кратно");
+        Console.WriteLine("Число четное");
     else
-        Console.WriteLine($"Не кратно, остаток {remai}");
+        Console.WriteLine($"Не четное, ");
 }
 
 int mod = Mod(a);
 PrintMod(mod);
+
+
